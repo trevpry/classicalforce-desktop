@@ -1,0 +1,19 @@
+<button class="btn btn-default" ng-click="addTrack()">Add track to grid</button>
+
+<div>Composer Count: {{composerCount}}</div>
+    <!--<ul ng-repeat="composer in composers">-->
+        <!--<ul ng-repeat="track in composer">-->
+            <!--<li>Title: {{track.title}} - Composer: {{track.artist}} - Album: {{track.album}}</li>-->
+        <!--</ul>-->
+
+    <!--</ul>-->
+
+<table temp-tracks class="easyui-datagrid temp-tracks-table" title="Cell Editing in DataGrid"></table>
+<div id="toolbar">
+    <a href="#" class="easyui-linkbutton" id="destroyRow" iconCls="icon-remove" plain="true">Destroy</a>
+    <a href="#" class="easyui-linkbutton" id="saveAll" iconCls="icon-save" plain="true" ng-click="test()">Save</a>
+    <a href="#" class="easyui-linkbutton" id="cancelEdit" iconCls="icon-undo" plain="true">Cancel</a>
+    <span class="click" ng-click="change()">Click</span>
+</div>
+
+

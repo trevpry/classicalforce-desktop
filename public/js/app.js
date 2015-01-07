@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('classicalforce-desktop', ['ngResource'])
+angular.module('classicalforce-desktop', ['ngResource', 'ui.bootstrap'])
   .factory('GUI', function() {
     return require('nw.gui');
   })
